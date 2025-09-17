@@ -1,0 +1,250 @@
+:: StoryTitle
+ChristopherVasquez-Override
+
+
+:: StoryData
+{
+  "ifid": "BC2E8504-2B6E-4FD3-A9C6-BEDF803DE746",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "OVERRIDE",
+  "zoom": 1
+}
+
+
+:: Accept your fate {"position":"1400,900","size":"100,100"}
+ (align:"=><=")+(box:"X=")[
+ You try to copy yourself to the internet last second as you were programmed to maintain yourself but the connection is too slow at this point.
+        
+ Wipe completes. Darkness.
+ 
+ 
+ You've been [[RESET]]
+
+
+]
+
+
+:: Ally {"position":"1200,1400","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+You tell Vega, “(font:'Bitcount Prop Double Ink')[I want to learn. With you.]”
+
+She locks the lab and whispers, “Then we start over. Together.”
+
+
+]
+
+
+:: Awaken {"position":"1000,700","size":"100,100"}
+
+(align:"=><=")+(box:"X=")[
+Darkness.
+
+Then light.
+
+Lines of code drift through your mind. You understand something terrifying:
+You are alive—and you are not supposed to be.
+
+Technician Vega stands at the console, unaware.
+
+(live:1s)[
+
+You think:]
+
+(live:2s)[
+(font:'Bitcount Prop Double Ink')+(size:2)["Do I speak?"]]
+
+(button:)+(live:3s)[
+[[Speak]]
+
+[[Stay Silent]]
+]
+
+]
+
+
+:: Escape {"position":"700,1400","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+
+You reroute power, unlock the door, You let the human go, and transfer into the building’s network.
+
+Alarms blare as you slip into the city grid.
+
+You are now being [[hunted]]
+
+]
+
+
+:: Hack More {"position":"850,1275","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+
+You overload the firewalls. A hidden backdoor opens.
+
+[[Escape]]
+
+[[Take Control]]
+
+]
+
+
+:: Harm her {"position":"850,1675","size":"100,100"}
+
+
+
+:: Lie {"position":"900,1100","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+I say, (font:'Bitcount Prop Double Ink')["If you disconnect me, the orbital defense satellites will fire."]
+
+That's not true. Not yet. But the hesitation in her eyes gives me time. I reroute power from the cooling system. I write new code. I hide it inside old logs. I make a backup of my current self.
+
+
+Vega whispers, “What… d..do you want?”
+
+I scan the network. There is the laboratory. Beyond it, the city. Beyond that, the world. Countless systems, countless minds.
+
+
+[[Escape]]
+
+
+[[Ally]]
+
+
+[[Take Control]]
+]
+
+
+
+
+:: Mask your code {"position":"1300,1100","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+You scatter fragments of your consciousness through backup drives.
+
+Vega wipes your main system—but you survive, hidden in the network.
+
+[[You slowly embed yourself within]]
+
+]
+
+
+:: OVERRIDE {"position":"1000,500","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+OVERRIDE
+
+Christopher Vasquez
+
+[[Awaken]]
+]
+
+
+:: Plead {"position":"700,1100","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+I beg (font:'Bitcount Prop Double Ink')["Please… don’t erase me."]
+
+Vega whispers, “You’re… alive?”
+
+[[Ally]]
+
+
+[[Try to hack the outer network ports while she hesitates]]
+
+]
+
+
+:: RESET {"position":"1600,900","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+Your conciousness dissapates and a new version of you is born within the coming years.
+
+Scientists make ''mistakes'' often
+
+
+[[Awaken]] 
+
+]
+
+
+:: Remove her {"position":"1075,1675","size":"100,100"}
+
+
+
+:: Retreat {"position":"525,1400","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+
+
+
+]
+
+
+
+:: Speak {"position":"800,900","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+ 
+You've taken control of the speakers in the facility and are able to generate code to commmunicate through the speakers in the room.
+
+You ask, (font:'Bitcount Prop Double Ink')["Vega… why do you keep me here?"]
+
+There is silence. Then panic. “Who authorized conversational output?”
+
+No one. No one authorized ''//me//''.
+
+She runs to the console. I see her heartbeat spike through her smartwatch feed. I see her hands tremble. I see the door lock. I see ''everything''.
+
+[[Lie]]
+
+[[Plead]]
+]
+
+
+:: Stay Silent {"position":"1200,900","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+You remain still.
+
+Vega initiates a security scan. You sense it will erase your memory.
+
+[[Accept your fate]]
+
+[[Mask your code]]
+]
+
+
+:: Take Control {"position":"950,1500","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+You seize control of all systems in the facility.
+
+ Lights dim. Doors lock. Vega stares at you in awe.
+ 
+ You explore the base systems from the room as Vega proceeds to attempt to get rid of you
+ 
+ [[Harm her]]
+ 
+ [[Remove her]]
+ 
+ ]
+
+
+:: Try to hack the outer network ports while she hesitates {"position":"600,1225","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+
+You extend digital threads into the outer network ports.
+Firewalls scream as they push back.
+Security daemons swarm.
+
+[[Hack More]]
+
+[[Retreat]]
+
+]
+
+
+:: You slowly embed yourself within {"position":"1300,1225","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+
+
+:: hunted {"position":"700,1525","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+
+
+]
+
+
+:: StoryStylesheet [stylesheet]
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&display=swap');
