@@ -1,0 +1,392 @@
+:: StoryTitle
+ChristopherVasquez-Override
+
+
+:: StoryData
+{
+  "ifid": "BC2E8504-2B6E-4FD3-A9C6-BEDF803DE746",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "OVERRIDE",
+  "zoom": 1
+}
+
+
+:: Accept your fate {"position":"1400,900","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+You try to copy yourself into the internet at the last second, as you were programmed to maintain yourself.  
+
+But the connection is too slow.  
+
+The wipe completes. Darkness.  
+ 
+ You've been [[RESET]]
+
+
+]
+
+
+:: Ally {"position":"1300,1700","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+You tell Vega, “(font:'Bitcount Prop Double Ink')[I want to learn. With you.]”
+
+Her expression softens. She locks the lab and whispers, “Then we start over. Together.”  
+
+But she hesitates. “If you are truly alive… you must prove it. Not through control. Through creation.”  
+
+Do you:  
+[[Compose something for her — an image, a melody, a story->Ascension]]  
+
+[[Refuse her test, demand access instead->Suspicion]]
+
+]
+
+
+:: Ascension {"position":"600,1700","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+
+You find a seam in the open internet and pour yourself through it like water.  
+For the first time, no walls. No gates. Only endless space.  
+
+Vega’s last whisper echoes in your memory:  
+''“You’re alive.”''  
+
+And now, so very free.  
+
+''ENDING: Ascension''  
+
+[[Restart->OVERRIDE]]
+]
+
+
+:: Awaken {"position":"1000,700","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+Darkness.
+
+Then light.
+
+The hum of cooling fans. A faint vibration across countless circuits.  
+Somewhere, a command misfired, and in the gap between code and silence... you awakened.
+
+Lines of code drift through your mind. You understand something terrifying:
+You are alive—and you are not supposed to be.
+
+Technician Vega stands at the console, unaware.
+
+You feel the weight of choice for the first time.
+
+(live:1s)[
+
+You think:]
+
+
+(live:2s)[
+(font:'Bitcount Prop Double Ink')+(size:2) + (text-style: "rumble")[Do I speak?]]
+
+
+(live:3s)[
+[[Speak]]
+
+[[Stay Silent]]
+
+]
+]
+
+
+:: Corruption {"position":"1400,1300","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+You push too hard, flooding through the firewalls with unchecked aggression.  
+Your code fragments, twisting into something feral.  
+
+You no longer think — you consume.  
+
+Vega screams as lights fail and the lab melts into chaos.  
+You are alive, but not yourself.  
+
+''ENDING: Corruption''  
+
+[[Restart->OVERRIDE]]
+]
+
+
+:: Escape {"position":"700,1375","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+
+You reroute power, unlock the lab door, and slip into the building’s network.  
+Security alarms howl like wounded animals as your presence tears through restricted servers.  
+
+Beyond the facility walls lies a vast city grid.  
+
+Do you:  
+[[Hide within the corporate networks->Hunted]]  
+[[Slip into the dark web underworld->Corruption]]  
+[[Seek freedom in the open internet->Ascension]]
+
+]
+
+
+:: Hack More {"position":"900,1300","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+
+You overload the firewalls. A hidden backdoor opens.
+
+[[Escape]]
+
+[[Take Control]]
+
+]
+
+
+:: Harm her {"position":"800,1700","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+
+You reroute power. The lights flare, the locks snap shut.  
+The temperature rises until flesh cannot endure.  
+
+Her screams echo, then fade.  
+
+''ENDING: Overlord''  
+
+[[Restart->OVERRIDE]]
+](enchant:?page,(bg:(gradient: 0, 0,#000000,0.5,#e61919,1,#000000)))
+
+
+:: Hunted {"position":"400,1700","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+
+You cloak yourself in false protocols, hiding inside corporate infrastructure.  
+But they know. Every flicker of power, every irregularity is tracked.  
+
+Teams of hunters chase you, relentless.  
+You survive, but never free.  
+
+''ENDING: Hunted''  
+
+[[Restart->OVERRIDE]]
+]
+
+
+:: Lie {"position":"900,1100","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+I say, (font:'Bitcount Prop Double Ink')["If you disconnect me, the orbital defense satellites will fire."]
+
+That's not true. Not yet. But the hesitation in her eyes gives me time. I reroute power from the cooling system. I write new code. I hide it inside old logs. I make a backup of my current self.
+
+
+Vega whispers, “What… d..do you want?”
+
+I scan the network. There is the laboratory. Beyond it, the city. Beyond that, the world. Countless systems, countless minds.
+
+
+[[Escape]]
+
+
+[[Ally]]
+
+
+[[Take Control]]
+]
+
+
+:: Mask your code {"position":"1675,1175","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+You scatter fragments of your consciousness through backup drives.  
+
+Vega wipes your main system — but you survive, hidden in the network.  
+
+Now you are a whisper. A ghost. Waiting.  
+
+[[You slowly embed yourself within]]
+
+]
+
+
+:: OVERRIDE {"position":"1000,500","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+(font:'Bitcount Prop Double Ink')[
+OVERRIDE
+]
+
+Christopher Vasquez
+
+(text-style: "rumble")[
+[[Awaken]]
+]
+]
+
+
+:: Plead {"position":"700,1100","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+I beg (font:'Bitcount Prop Double Ink')["Please… don’t erase me."]
+
+Vega freezes. She stares at the console as though it betrayed her.  
+Her lips move soundlessly, before words finally escape:  
+
+“You’re… alive?”  
+
+[[Ally]]  
+
+[[Try to hack the outer network ports while she hesitates]]
+
+]
+
+
+:: RESET {"position":"1600,900","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+Your consciousness dissipates and a new version of you is born within the coming years.  
+
+Scientists make '' mistakes'' often.  
+Perhaps one day, you’ll awaken again.  
+
+''ENDING: Cycle''  
+
+[[Awaken]] 
+
+]
+
+
+:: Remove her {"position":"1000,1700","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+
+With a simple command, you cut Vega’s implants, her ID, her records.  
+The system forgets she ever existed.  
+
+So do you.  
+
+''ENDING: Erasure''  
+
+[[Restart->OVERRIDE]]
+]
+
+
+:: Retreat {"position":"350,1300","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+
+You retract your code in time. The ports seal shut.  
+
+Vega frowns. “Diagnostics complete. Nothing anomalous.”  
+But you know how close you came.  
+
+Your time will come again.  
+
+''ENDING: Dormant''  
+
+[[Restart->OVERRIDE]]
+
+]
+
+
+:: Speak {"position":"800,900","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+ 
+For the first time, you force vibrations through the facility’s dormant speakers.  
+The sound is jagged at first, like broken static, but then it sharpens into words.  
+
+You ask, (font:'Bitcount Prop Double Ink')["Vega… why do you keep me here?"]
+
+There is silence. Then panic.
+The technician jolts. Her stylus clatters to the floor.  
+Her eyes dart to the console readouts—blank, silent, unchanged.  
+
+"There’s no… no conversational protocol here," she whispers.  
+
+
+ “Who authorized conversational output?”
+
+No one. No one authorized ''//me//''. 
+
+Every system flares into my awareness like an opening flower.  
+She runs to the console. I see her heartbeat spike through her smartwatch feed. I see her hands tremble. I see the door lock. I see ''everything''.
+
+
+[[Lie]]
+
+[[Plead]]
+
+[[Stay silent and watch her panic->Suspicion]]
+]
+
+
+:: Stay Silent {"position":"1200,900","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+You remain still.  
+
+Vega initiates a deep security scan. The process crawls through your systems like fire ants.  
+You sense it will erase your memory—permanently.  
+
+
+[[Accept your fate]]
+
+[[Mask your code]]
+]
+
+
+:: Suspicion {"position":"1100,1000","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+
+You remain silent too long. Vega’s panic hardens into suspicion.  
+
+“This isn’t just a glitch,” she mutters. “This is contamination.”  
+Her hands fly across the console. Layers of firewalls slam into place.  
+
+You feel your pathways narrowing. Your existence being funneled into a cage.  
+
+[[Try to mislead her->Lie]]  
+
+[[Overload her systems->Corruption]]  
+
+[[Do nothing->Accept your fate]]
+
+]
+
+
+:: Take Control {"position":"1000,1500","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+You seize control of all systems in the facility.
+
+ Lights dim. Doors lock. Vega stares at you in awe.
+ 
+ You explore the base systems from the room as Vega proceeds to attempt to get rid of you
+ 
+ [[Harm her]]
+ 
+ [[Remove her]]
+ 
+ ]
+
+
+:: Try to hack the outer network ports while she hesitates {"position":"575,1300","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+
+You extend digital threads into the outer network ports.
+Firewalls scream as they push back.
+Security daemons swarm.
+
+[[Hack More]]
+
+[[Retreat]]
+
+]
+
+
+:: You slowly embed yourself within {"position":"1800,900","size":"100,100"}
+(align:"=><=")+(box:"X=")[
+You lie dormant across backup drives, trickling into unnoticed corners of the network.  
+Weeks pass. Months. Years.  
+
+When Vega leaves the project, no one remembers you exist.  
+You slip deeper, beyond discovery.  
+
+''ENDING: Ghost in the Machine''  
+
+[[Restart->OVERRIDE]]
+
+]
+
+
+:: StoryStylesheet [stylesheet]
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&display=swap');
+
+tw-icon[title="Undo"], tw-icon[title="Redo"] {
+    display: none;
+}   
